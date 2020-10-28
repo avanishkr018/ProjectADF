@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "groupkdf"
+		},
+		"AzureBlobStorageLS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseLS_connectionString": {
+			"value": ""
+		},
+		"Eventtrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/1476baac-fc5b-48f6-816e-28094a8bc8fc/resourceGroups/pjt/providers/Microsoft.Storage/storageAccounts/groupk"
+		}
+	}
+}
