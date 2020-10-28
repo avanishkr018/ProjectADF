@@ -1,0 +1,18 @@
+{
+	"name": "Eventtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/",
+			"blobPathEndsWith": ".xlsx",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/1476baac-fc5b-48f6-816e-28094a8bc8fc/resourceGroups/pjt/providers/Microsoft.Storage/storageAccounts/groupk",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
